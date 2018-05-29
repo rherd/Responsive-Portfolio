@@ -270,14 +270,26 @@ nav {
 
 
   .container1 {
+
+    margin-left: 40px;
+    width: 960px;
   
   } 
 
   .main-section {
+    
+    width: 100%;
+    margin: 0 auto;
+    max-width: 670px;
+    padding: 20px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
   }
 
-
 nav {
+  float: left;
+  margin-left: 130px;
 }
   
 }
