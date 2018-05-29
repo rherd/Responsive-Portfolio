@@ -263,11 +263,8 @@ nav {
 @media screen and (max-width: 768px) {
 
   #masthead {
+    position: static;
   }
-
-  #main-container {
-  }
-
 
   .container1 {
 
@@ -295,6 +292,37 @@ nav {
 }
 
 @media screen and (max-width: 640px) {
+
+  #masthead {
+    position: static;
+  }
+
+  .container1 {
+    margin-left: 10px;
+    width: 590px;
+}
+
+.work {
+  position: relative;
+  float: left;
+  width: 500px;
+  margin: 20px;
+  overflow: auto;
+}
+
+#logo {
+  float: left;
+  width: 590px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
   
 }
 
