@@ -251,14 +251,34 @@ input[type=submit] {
     background: #fff;
     border: 1px solid #ddd;
   }
-}
+
 
 nav {
   float:left;
   margin-left: 360px;
 }
 
+}
+
 @media screen and (max-width: 768px) {
+
+  #masthead {
+  }
+
+  #main-container {
+  }
+
+
+  .container1 {
+  
+  } 
+
+  .main-section {
+  }
+
+
+nav {
+}
   
 }
 
