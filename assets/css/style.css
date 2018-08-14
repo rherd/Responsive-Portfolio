@@ -179,15 +179,20 @@ h3, h2 {
 .auth-image {
   float: left;
   width: 200px;
-  height: auto;
+  height: 100%;;
   margin-top: 10px;
   margin-right: 25px;
 }
 
 /* contact page */
 
+#contact-form {
+  width: 100%;
+}
+
 #contact-form ul {
   margin-bottom: 20px;
+
 }
 
 #contact-form li {
