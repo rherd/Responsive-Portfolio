@@ -19,6 +19,11 @@ body {
   clear: both;
 }
 
+.main-section h1 {
+  display: block;
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -124,22 +129,25 @@ h3, h2 {
   min-height: calc(100vh - 70px);
 }
 
+
 .main-section {
-  float: left;
+  /* float: left; */
   width: 100%;
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* portfolio page */
 
 .work {
   position: relative;
-  float: left;
-  width: 274px;
+  /* float: left; */
+  max-width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
 }
